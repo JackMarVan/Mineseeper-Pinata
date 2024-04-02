@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="726.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HowToPlayController">
+   <children>
+      <Text fill="#0e460e" layoutX="145.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to Play UWGB Minesweeper">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="57.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How To Win:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="73.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Display all the safe spaces on the board without running across any geese!" />
+      <Text layoutX="57.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How do I know where the geese are?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When you start the game,  you will be given a number in the  " />
+      <Text layoutX="57.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Starting the Game:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on a random square on the board. " />
+      <Text layoutX="341.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Don't worry! This is a " />
+      <Text layoutX="74.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We can't stop you from clicking randomly, but we do " />
+      <Text layoutX="74.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tile that will tell you how many geese are in the nearby tiles. " />
+      <Text layoutX="75.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="recommend you use these numbers to your advantage!" />
+      <ImageView fitHeight="99.0" fitWidth="111.0" layoutX="509.0" layoutY="243.0">
+         <image>
+            <Image url="@images/cutoutgoose.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="57.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Think you know where a bomb is?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="76.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="free space. This will generate the geese on the board. Avoid" />
+      <Text layoutX="77.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="them at all cost..." />
+      <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="519.0" layoutY="81.0">
+         <image>
+            <Image url="@images/greeentile.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="74.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Right click on the tile and it will leave a UWGB Flag! Keep these spots in mind when playing. Just because you mark a spot as containing a goose, doesn't mean that it actually does. " wrappingWidth="408.1420834362507" />
+      <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="519.0" layoutY="358.0">
+         <image>
+            <Image url="@images/flag-tile.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="57.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pinatas: What do they do?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="75.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you see this cute little Phoenix when you play, don't worry!" />
+      <Text layoutX="75.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="He is here to help! If you find him on the board, he will reveal" />
+      <Text layoutX="75.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a random safe tile for you! If the number tile is dark green " />
+      <ImageView fitHeight="91.0" fitWidth="91.0" layoutX="519.0" layoutY="478.0">
+         <image>
+            <Image url="@images/cutoutpinata.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="57.0" layoutY="622.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Stuck? Make a new game!">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="643.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click the New Game Button to reset your board and start over!" />
+      <Button layoutX="518.0" layoutY="637.0" mnemonicParsing="false" text="New Game">
+         <font>
+            <Font name="OCR A Extended" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="230.0" layoutY="670.0" mnemonicParsing="false" onAction="#returnScreenButtonPushed" text="Return to Game">
+         <font>
+            <Font name="OCR A Extended" size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="75.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="instead of grey, that means one of these pinatas are nearby!" />
+   </children>
+</Pane>
